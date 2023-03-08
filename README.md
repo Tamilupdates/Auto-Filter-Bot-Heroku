@@ -1,1 +1,1 @@
-## ***Merger-Premium-Bot-Railway***
+## ***Merge-Premium-Bot-Railway***
