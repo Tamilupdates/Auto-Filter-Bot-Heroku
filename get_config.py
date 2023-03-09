@@ -1,8 +1,5 @@
 from requests import get as rget
-from __init__ import LOGGER
 import os
-import subprocess
-from dotenv import load_dotenv
 
 CONFIG_FILE_URL = os.environ.get('CONFIG_FILE_URL')
 try:
@@ -20,5 +17,3 @@ try:
 except Exception as e:
     LOGGER.error(e)
     pass
-
-
