@@ -1,16 +1,14 @@
 {
   "name": "Auto Filter Bot",
-  "description": "Auto Filter Bot.",
-  "logo": "https://graph.org/file/183c91fb709d5af2600c3.jpg",
+  "description": "Auto Filter Bot",
   "keywords": [
     "telegram",
     "bot",
     "python",
     "pyrogram"
   ],
-    "buildpacks": [{
-    "url": "heroku/python"
-  }],
+ 
+  "stack": "container",
   "repository": "https://github.com/Tamilupdates/Auto-Filter-Bot-Railway",
   "env": {
     "CONFIG_FILE_URL": {
@@ -18,5 +16,14 @@
       "required": true,
       "value": ""
     }
+  },
+   "stack": "container",
+  "formation": {
+    "worker": {
+      "quantity": 1
+    }
   }
 }
+
+
+
