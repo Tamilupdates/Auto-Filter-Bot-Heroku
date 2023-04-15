@@ -13,26 +13,8 @@
   }],
   "repository": "https://github.com/Tamilupdates/Auto-Filter-Bot-Railway",
   "env": {
-    "DATABASE_NAME": {
-      "description": "Database Name",
-      "required": true,
-      "value": ""
-    },
-    
-    "DATABASE_URL": {
-      "description": "Database URL",
-      "required": true,
-      "value": ""
-    },
-    
-    "LOG_CHANNEL": {
-      "description": "Log Channel ID -100",
-      "required": true,
-      "value": ""
-    },
-    
-    "BOT_TOKEN": {
-      "description": "Get this value from @BotFather",
+    "CONFIG_FILE_URL": {
+      "description": "Config File URL",
       "required": true,
       "value": ""
     }
