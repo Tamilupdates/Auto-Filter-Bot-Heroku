@@ -11,7 +11,7 @@ try:
             with open('info.py', 'wb+') as f:
                 f.write(res.content)
         else:
-            LOGGER.error(f"Failed to download config.env {res.status_code}")
+            LOGGER.error(f"Failed to download info.py {res.status_code}")
     except Exception as e:
         LOGGER.error(f"CONFIG_FILE_URL: {e}")
 except Exception as e:
