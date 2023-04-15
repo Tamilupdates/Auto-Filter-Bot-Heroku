@@ -1,0 +1,40 @@
+{
+  "name": "Auto Filter Bot",
+  "description": "Auto Filter Bot.",
+  "logo": "https://graph.org/file/183c91fb709d5af2600c3.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/Tamilupdates/Auto-Filter-Bot-Railway",
+  "env": {
+    "DATABASE_NAME": {
+      "description": "Database Name",
+      "required": true,
+      "value": ""
+    },
+    
+    "DATABASE_URL": {
+      "description": "Database URL",
+      "required": true,
+      "value": ""
+    },
+    
+    "LOG_CHANNEL": {
+      "description": "Log Channel ID -100",
+      "required": true,
+      "value": ""
+    },
+    
+    "BOT_TOKEN": {
+      "description": "Get this value from @BotFather",
+      "required": true,
+      "value": ""
+    }
+  }
+}
