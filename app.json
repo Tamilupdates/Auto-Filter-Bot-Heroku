@@ -5,7 +5,7 @@
       "telegram"
     ],
     "stack": "container",
-    "repository": "https://github.com/Tamilupdates/Auto-Filter-Bot-Railway",
+    "repository": "https://github.com/Tamilupdates/Auto-Filter-Bot-Heroku",
     "env": {
         "CONFIG_FILE_URL": {
             "description": "Config File URL",
