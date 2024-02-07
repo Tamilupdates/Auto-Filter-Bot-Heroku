@@ -4,7 +4,6 @@
     "keywords": [
       "telegram"
     ],
-    "stack": "container",
     "repository": "https://github.com/Tamilupdates/Auto-Filter-Bot-Heroku",
     "env": {
         "CONFIG_FILE_URL": {
@@ -12,10 +11,14 @@
             "required": true
         }
     },
+    "buildpacks": [{
+        "url": "heroku/python"
+      }],
     "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "Basic"
+        "worker": {
+            "quantity": 1,
+            "size": "Basic"
+        }
     }
-  }
 }
+
