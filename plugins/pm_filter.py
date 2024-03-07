@@ -825,6 +825,19 @@ async def advantage_spell_chok(msg):
     await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?",
                     reply_markup=InlineKeyboardMarkup(btn))
 
+    
+    '''m = await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?",
+                    reply_markup=InlineKeyboardMarkup(btn))
+    await asyncio.sleep(8)
+    await m.delete()
+    return'''
+
+    
+    SPELL_CHECK[msg.id] = {
+            'movielist': movielist,
+            'self_delete_seconds': SELF_DELETE_SECONDS  # Add SELF_DELETE_SECONDS here
+        }
+
 
 
 async def manual_filters(client, message, text=False):
