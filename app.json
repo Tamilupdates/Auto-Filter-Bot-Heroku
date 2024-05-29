@@ -4,7 +4,6 @@
     "keywords": [
       "telegram"
     ],
-    "success_url": "/",
     "repository": "https://github.com/Tamilupdates/Auto-Filter-Bot-Heroku",
     "website": "#",
     "env": {
@@ -19,7 +18,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "Standard-2x"
+            "size": "basic"
         }
     }
 }
