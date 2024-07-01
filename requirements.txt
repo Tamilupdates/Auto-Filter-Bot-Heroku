@@ -1,5 +1,6 @@
 git+https://github.com/Joelkb/cinemagoer
-pyrogram>=2.0.30
+git+https://github.com/Tamilupdates/pyrogram
+#pyrogram>=2.0.30
 tgcrypto
 pymongo[srv]==3.12.3
 motor==2.5.1
